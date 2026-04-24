@@ -108,4 +108,4 @@ async function handleMessage(event) {
 }
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`伺服器啟動，port: ${PORT}`));
+app.listen(PORT, () => console.log(`伺服器啟動 v2，port: ${PORT}`));
